@@ -1,0 +1,13 @@
+﻿<PageTitle>Animace základ</PageTitle>
+
+<div class="container">
+    <div id="znovu" onclick="location.reload()" ></div>
+    <div class="postava" style="@Postava.Style" @onclick="Postava.Presun">
+        <p class="postavaPopis">@Postava.Nazev</p>
+        <img src="@Postava.CestaObrazek" style="width:100%; @Postava.TransformRotateY" />
+    </div>
+</div>
+
+@code {
+
+}
